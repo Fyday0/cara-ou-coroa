@@ -1,0 +1,56 @@
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.game {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 1.2em;
+}
+
+input {
+    font-size: 1em;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 80px;
+}
+
+.choices button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+#balance {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
